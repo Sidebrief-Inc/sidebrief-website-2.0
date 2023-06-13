@@ -175,6 +175,8 @@ export default function Navbar() {
 								className="h-8 w-auto"
 								src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
 								alt=""
+								height={32}
+								width={500}
 							/>
 						</a>
 						<button
