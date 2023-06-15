@@ -10,6 +10,7 @@ import {
 	Blog,
 	RegisterCTA,
 	Footer,
+	SEO,
 } from "@/components/Features";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -17,6 +18,7 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
 	return (
 		<>
+			<SEO />
 			<Navbar />
 			<Hero />
 			<Logos />
