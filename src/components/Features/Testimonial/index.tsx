@@ -1,85 +1,122 @@
 import Image from "next/image";
 
 const featuredTestimonial = {
-    body: "Sidebrief was so fast in getting my company’s EIN out. I had used another provider and waited for over 4 weeks. Sidebrief got my EIN to me in few hours.",
+    body: "Integer id nunc sit semper purus. Bibendum at lacus ut arcu blandit montes vitae auctor libero. Hac condimentum dignissim nibh vulputate ut nunc. Amet nibh orci mi venenatis blandit vel et proin. Non hendrerit in vel ac diam.",
     author: {
-      name: "Nnamdi Okoh",
-      handle: "nnamdiokoh",
+      name: "Brenna Goyette",
+      handle: "brennagoyette",
       imageUrl:
         "https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=1024&h=1024&q=80",
-      logoUrl: "https://res.cloudinary.com/dutcp8qkx/image/upload/v1686809518/sidebrief/terminal-africa-logo_si0zkf.png",
+      logoUrl: "https://tailwindui.com/img/logos/savvycal-logo-gray-900.svg",
     },
-};
+  };
 
 const testimonials = [
     [
-        [
+      [
         {
-            body: "Sidebrief was very fast on our Delaware franchise tax filling. This is me coming to say thanks & welldone.",
-            author: {
-            name: "Emmanuella Oballa",
-            handle: "emmanuellaoballa",
+          body: "Laborum quis quam. Dolorum et ut quod quia. Voluptas numquam delectus nihil. Aut enim doloremque et ipsam.",
+          author: {
+            name: "Leslie Alexander",
+            handle: "lesliealexander",
             imageUrl:
-                "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
-            },
+              "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+          },
         },
         {
-            body: "I was really happy with my experience when setting my our Kenya entity. It was quite seamless.",
-            author: {
-            name: "Nnamdi Okoh",
-            handle: "nnamdiokoh",
+          body: "Laborum quis quam. Dolorum et ut quod quia. Voluptas numquam delectus nihil. Aut enim doloremque et ipsam.",
+          author: {
+            name: "Leslie Alexander",
+            handle: "lesliealexander",
             imageUrl:
-                "https://res.cloudinary.com/dutcp8qkx/image/upload/v1686809518/sidebrief/terminal-africa-logo_si0zkf.png",
-            },
+              "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+          },
+        },
+        {
+          body: "Laborum quis quam. Dolorum et ut quod quia. Voluptas numquam delectus nihil. Aut enim doloremque et ipsam.",
+          author: {
+            name: "Leslie Alexander",
+            handle: "lesliealexander",
+            imageUrl:
+              "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+          },
         },
         // More testimonials...
-        ],
-        [
+      ],
+      [
         {
-            body: "We are always super excited about their work for us. They are also very professional.",
-            author: {
-            name: "Omiete Charles-Davies",
-            handle: "omiete",
+          body: "Aut reprehenderit voluptatem eum asperiores beatae id. Iure molestiae ipsam ut officia rem nulla blanditiis.",
+          author: {
+            name: "Lindsay Walton",
+            handle: "lindsaywalton",
             imageUrl:
-                "https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
-            },
+              "https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+          },
         },
-        ],
+        {
+          body: "Aut reprehenderit voluptatem eum asperiores beatae id. Iure molestiae ipsam ut officia rem nulla blanditiis.",
+          author: {
+            name: "Lindsay Walton",
+            handle: "lindsaywalton",
+            imageUrl:
+              "https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+          },
+        },
+      ],
     ],
     [
-        [
+      [
         {
-            body: "Sidebrief was very fast on our Delaware franchise tax filling. This is me coming to say thanks & welldone",
-            author: {
-            name: "Emmanuella Oballa",
-            handle: "emmanuellaoballa",
+          body: "Voluptas quos itaque ipsam in voluptatem est. Iste eos blanditiis repudiandae. Earum deserunt enim molestiae ipsum perferendis recusandae saepe corrupti.",
+          author: {
+            name: "Tom Cook",
+            handle: "tomcook",
             imageUrl:
-                "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
-            },
+              "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+          },
         },
-        ],
-        [
-            {
-                body: "Onboarding our users on Sidebrief was a very seamless approach",
-                author: {
-                name: "Spleet Africa",
-                handle: "spleetafrica",
-                imageUrl:
-                    "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
-                },
-            },
         {
-            body: "Sidebrief did a good job with my Delaware Incorporation.",
-            author: {
-            name: "Joel Mutua",
-            handle: "joelmutua",
+          body: "Molestias ea earum quos nostrum doloremque sed. Quaerat quasi aut velit incidunt excepturi rerum voluptatem minus harum.",
+          author: {
+            name: "Leonard Krasner",
+            handle: "leonardkrasner",
             imageUrl:
-                "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
-            },
+              "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+          },
         },
-        ],
+      ],
+      [
+        {
+          body: "Molestias ea earum quos nostrum doloremque sed. Quaerat quasi aut velit incidunt excepturi rerum voluptatem minus harum.",
+          author: {
+            name: "Leonard Krasner",
+            handle: "leonardkrasner",
+            imageUrl:
+              "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+          },
+        },
+        {
+          body: "Molestias ea earum quos nostrum doloremque sed. Quaerat quasi aut velit incidunt excepturi rerum voluptatem minus harum.",
+          author: {
+            name: "Leonard Krasner",
+            handle: "leonardkrasner",
+            imageUrl:
+              "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+          },
+        },
+        {
+          body: "Molestias ea earum quos nostrum doloremque sed. Quaerat quasi aut velit incidunt excepturi rerum voluptatem minus harum.",
+          author: {
+            name: "Leonard Krasner",
+            handle: "leonardkrasner",
+            imageUrl:
+              "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+          },
+        },
+      ],
     ],
-];
+  ];
+  
 
 function classNames(...classes: string[]) {
     return classes.filter(Boolean).join(" ");

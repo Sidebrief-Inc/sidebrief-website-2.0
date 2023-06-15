@@ -3,14 +3,14 @@ import Image from "next/image";
 const posts = [
     {
       id: 1,
-      title: "Taking Control of Business Success: How Swahilies Helps Tanzanian Entrepreneurs",
-      href: "https://blog.sidebrief.com/swahilies/",
+      title: "Boost your conversion rate",
+      href: "#",
       description:
-        "Swahilies is a payment processing system that digitizes payments in Africa and makes it easy for businesses to accept digital payments from anywhere. With their...",
+        "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.",
       imageUrl:
-        "https://res.cloudinary.com/dutcp8qkx/image/upload/v1686807118/sidebrief/swahili_os4sr3.png",
-      date: "June 13, 2023",
-      datetime: "2023-06-13",
+        "https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80",
+      date: "Mar 16, 2020",
+      datetime: "2020-03-16",
       category: { title: "Marketing", href: "#" },
       author: {
         name: "Michael Foster",
@@ -21,14 +21,14 @@ const posts = [
       },
     },
     {
-      id: 2,
-      title: "How to Land a Space in Techstars Toronto Cohort: An Ultimate Guide",
-      href: "https://blog.sidebrief.com/techstars-toronto-cohort/",
+      id: 1,
+      title: "Boost your conversion rate",
+      href: "#",
       description:
-        "Techstars Toronto offers a 13-week mentorship-driven accelerator program that provides startups with seed funding, mentorship, and access to their vast network of investors and resources. The Techstars...",
+        "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.",
       imageUrl:
-        "https://res.cloudinary.com/dutcp8qkx/image/upload/v1686807118/sidebrief/techstars_xwxi8u.png",
-      date: "June 11, 2023",
+        "https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80",
+      date: "Mar 16, 2020",
       datetime: "2020-03-16",
       category: { title: "Marketing", href: "#" },
       author: {
@@ -36,18 +36,18 @@ const posts = [
         role: "Co-Founder / CTO",
         href: "#",
         imageUrl:
-          "https://res.cloudinary.com/dutcp8qkx/image/upload/v1686807118/sidebrief/techstars_xwxi8u.png",
+          "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
       },
     },
     {
-      id: 3,
-      title: "Schemach: Unlocking FMCG Supply Chain Efficiency in Ethiopia and Beyond",
-      href: "https://blog.sidebrief.com/shemach-connecting-fmcg-retailers-and-suppliers-ethiopia/",
+      id: 1,
+      title: "Boost your conversion rate",
+      href: "#",
       description:
-        "Shemach is a B2B e-commerce platform that connects FMCG retailers to suppliers across Ethiopia. Shemach enable retailers to order their products through their eCommerce platform...",
+        "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.",
       imageUrl:
-        "https://res.cloudinary.com/dutcp8qkx/image/upload/v1686807118/sidebrief/schemach_jcfdmy.png",
-      date: "June 9, 2023",
+        "https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80",
+      date: "Mar 16, 2020",
       datetime: "2020-03-16",
       category: { title: "Marketing", href: "#" },
       author: {
@@ -118,12 +118,6 @@ const posts = [
             ))}
           </div>
         </div>
-
-        <div className="mt-10 flex items-center justify-center gap-x-6">
-            <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
-                Read more <span aria-hidden="true">→</span>
-              </a>
-            </div>
       </div>
     );
   }
