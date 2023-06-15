@@ -1,14 +1,22 @@
-import Navbar from './Navbar'
-
+import Navbar from "./Navbar";
+import RegisterCTA from "./RegisterCTA";
+import Testimonial from "./Testimonial";
+import Footer from "./Footer";
+import Blog from "./Blog";
 import Process from './Process'
 import Logos from './Logos'
 import CtaConnect from './CtaConnect'
 import Pricing from './Pricing'
 
-export { Navbar }
 
+export { Navbar };
 export { Logos }
 export { Pricing }
 export { CtaConnect }
 export { Process }
-export * from './Home'
+export { Blog }
+export { Testimonial }
+export { RegisterCTA}
+export { Footer }
+
+export * from "./Home";
