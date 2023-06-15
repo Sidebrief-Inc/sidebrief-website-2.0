@@ -19,14 +19,14 @@ export default function RegisterCTA() {
                     href="#"
                     className="btn btn-primary rounded-md px-3.5 py-2.5 font-semibold text-white"
                   >
-                    Schedule Free Consultation
+                    Get started
                   </a>
-                  {/* <a
+                  <a
                     href="#"
                     className="text-sm font-semibold leading-6 text-white"
                   >
                     Talk to us <span aria-hidden="true">→</span>
-                  </a> */}
+                  </a>
                 </div>
               </div>
             </div>
