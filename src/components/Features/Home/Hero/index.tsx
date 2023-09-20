@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
-
+import Image from "next/image";
+import ArrowRight from "@/assets/icons/Arrow-right.svg"
 const heroText = [
 	"Register",
 	"Bank",
@@ -73,18 +74,10 @@ export default function HomeHeaderComponent() {
 						</div>
 					</div>
 					<div className="text-center">
-						<h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-							<span
-								className="relative inline-block"
-								aria-hidden="true"
-							>
-								<span className="absolute inset-0 -skew-x-12 transform" />
-								<span className="relative">
-									{heroText[currentWordIndex]}
-								</span>
-							</span>{" "}
-							your business
-						</h1>
+						<h6 className="text-4xl font-bold tracking-tight text-[#4E5152] sm:text-5xl">
+						Best place to do everything about your business. 
+						<span className="text-primary">Register it</span>
+						</h6>
 						<p className="mt-6 p-4 text-lg leading-8 text-gray-600">
 							The fastest way for anyone to register and manage a
 							business from anywhere. Start your business in half
@@ -93,15 +86,25 @@ export default function HomeHeaderComponent() {
 						<div className="mt-10 flex items-center justify-center gap-x-6">
 							<a
 								href="#"
-								className="bg-primary hover:bg-primary-700 rounded-lg px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+								className="bg-secondary hover:bg-primary-700 rounded-lg px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
 							>
-								Get started
+								Create Account
 							</a>
 							<a
 								href="#"
 								className="text-secondary hover:text-secondary-600 text-sm font-semibold leading-6"
 							>
-								Sign in <span aria-hidden="true">→</span>
+								<div className="flex items-center">
+									<span className="mr-2 text-[#00A2D4]">Get Started</span>
+									<span>
+										<Image
+											src={ArrowRight}
+											width={20}
+											height={20}
+											alt="arrow"
+										/>
+									</span>	
+								</div>		
 							</a>
 						</div>
 					</div>
